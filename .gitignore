@@ -1,0 +1,71 @@
+################################################
+# Dependencies
+################################################
+
+/frontend/node_modules
+/frontend/sources/components
+
+
+################################################
+# Node.js / NPM
+################################################
+
+lib-cov
+*.seed
+*.log
+*.out
+*.pid
+npm-debug.log
+
+pids
+.node_history
+
+
+################################################
+# Miscellaneous
+################################################
+
+######################
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+#############################
+# Developer generated files #
+#############################
+*.php_
+*.backup
+
+#######################
+# IDE generated files #
+#######################
+.idea
+*.iml
+.sublimelinterrc
+*.sublime-workspace
+*.sublime-project
+.netbeans
+nbproject
+.editorconfig
+
+######################
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+*~
+
+#########################
+# Frontend ignore files #
+#########################
+/frontend/.cache-frontend
+/frontend/.tmp
+
