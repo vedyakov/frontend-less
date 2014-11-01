@@ -1,0 +1,17 @@
+{
+	"name": "frontend-less",
+	"version": "0.0.1",
+	"ignore": [
+		"node_modules",
+		"components",
+		"tests"
+	],
+	"dependencies": {
+		"jquery-legacy": "jquery#1",
+		"jquery-modern": "jquery#2",
+		"html5-boilerplate": "*",
+		"yajsoopl": "git://github.com/vedyakov/yajsoopl.git",
+		"normalize-less": "*",
+		"moar-elements": "*"
+	}
+}

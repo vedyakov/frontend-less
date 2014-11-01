@@ -1,0 +1,25 @@
+{
+	"name": "frontend-less",
+	"version": "0.0.1",
+	"devDependencies": {
+		"grunt": "*",
+		"matchdep": "*",
+		"load-grunt-config": "*",
+		"grunt-newer": "*",
+		"time-grunt": "*",
+		"grunt-notify": "*",
+		"grunt-contrib-less": "*",
+		"grunt-rigger": "*",
+		"grunt-contrib-watch": "*",
+		"grunt-contrib-connect": "*",
+		"grunt-contrib-cssmin": "*",
+		"grunt-contrib-uglify": "*",
+		"grunt-contrib-imagemin": "",
+		"grunt-contrib-jshint": "*",
+		"grunt-contrib-clean": "*",
+		"grunt-contrib-copy": "*"
+	},
+	"engines": {
+		"node": ">=0.10.1"
+	}
+}

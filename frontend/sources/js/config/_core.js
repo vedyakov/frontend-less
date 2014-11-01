@@ -1,0 +1,3 @@
+CONFIG = {
+	/* some config variables */
+};
