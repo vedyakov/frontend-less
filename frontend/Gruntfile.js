@@ -17,7 +17,9 @@ module.exports = function( grunt ) {
 			},
 			folder: {
 				scripts: 'js',
+				styles_drafts: 'css-unprefixed',
 				styles: 'css',
+				less: 'less',
 				fonts: 'fonts',
 				images: 'img',
 				pictures: 'pic',

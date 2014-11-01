@@ -1,7 +1,7 @@
 module.exports = {
 	less: {
 		files: ['<%= path.development %>/<%= folder.less %>/{,**/}*.less'],
-		tasks: ['less:dev']
+		tasks: ['less:dev', 'autoprefixer:dev']
 	},
 	rig: {
 		files: [ '<%= path.development %>/<%= folder.scripts %>/{,**/}*.js' ],

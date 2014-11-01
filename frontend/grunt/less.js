@@ -6,9 +6,9 @@ module.exports = {
 		files: [
 			{
 				expand: true,
-				cwd: '<%= path.development %>/<%= folder.styles %>',
+				cwd: '<%= path.development %>/<%= folder.less %>',
 				src: ['*.less', '!_*.less'],
-				dest: '<%= path.temp %>/<%= folder.styles %>',
+				dest: '<%= path.temp %>/<%= folder.styles_drafts %>',
 				ext: '.css'
 			}
 		]
@@ -20,9 +20,9 @@ module.exports = {
 		files: [
 			{
 				expand: true,
-				cwd: '<%= path.development %>/<%= folder.styles %>',
+				cwd: '<%= path.development %>/<%= folder.less %>',
 				src: ['*.less', '!_*.less'],
-				dest: '<%= path.temp %>/<%= folder.styles %>',
+				dest: '<%= path.temp %>/<%= folder.styles_drafts %>',
 				ext: '.css'
 			}
 		]
@@ -34,9 +34,9 @@ module.exports = {
 		files: [
 			{
 				expand: true,
-				cwd: '<%= path.development %>/<%= folder.styles %>',
+				cwd: '<%= path.development %>/<%= folder.less %>',
 				src: ['*.less', '!_*.less'],
-				dest: '<%= path.production %>/<%= folder.styles %>',
+				dest: '<%= path.temp %>/<%= folder.styles_drafts %>',
 				ext: '.css'
 			}
 		]

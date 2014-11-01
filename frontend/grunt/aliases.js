@@ -3,6 +3,7 @@ module.exports = {
 		"clean:dev",
 		"rig:dev",
 		"less:dev",
+		"autoprefixer:dev",
 		"connect:dev",
 		"watch"
 	],
@@ -10,6 +11,7 @@ module.exports = {
 		"clean:dist",
 		"rig:dist",
 		"less:dist",
+		"autoprefixer:dist",
 		"uglify:dist",
 		"cssmin:dist",
 		"imagemin:dist",
@@ -18,6 +20,7 @@ module.exports = {
 	"rebuild": [
 		"rig:dist",
 		"newer:less:dist",
+		"newer:autoprefixer:dist",
 		"newer:uglify:dist",
 		"newer:cssmin:dist",
 		"newer:imagemin:dist",
@@ -27,6 +30,7 @@ module.exports = {
 		"clean:dist",
 		"rig:compile",
 		"less:compile",
+		"autoprefixer:compile",
 		"imagemin:dist",
 		"copy:dist"
 	],
